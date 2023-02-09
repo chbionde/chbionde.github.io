@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Carlos Bionde</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="css/general_styles.css">
+    <link rel="stylesheet" href="css/bio_styles.css">
+    <link rel="stylesheet" href="css/about_styles.css">
+    <link rel="stylesheet" href="css/styles.class.css">
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,9 +19,63 @@
     
 </head>
 <body>
-    <h1>
-        teste
-    </h1>
+    <main id="container">
+        <aside id="bio-container">
+            <!-- <h2>Carlos Bionde</h2> -->
+            <img id="bio-img" src="img/me.jpg" alt="Carlos Bionde">
+            <p>Olá, meu nome é Carlos Bionde e sou <span class="hightlight">Desenvolvedor Web</span></p>
+            <p id="bio-welcome-text">Seja bem-vindo</p>
+            <div id="bio-social-container">
+                <ul>
+                    <li><a href="" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                    <li><a href="" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                </ul>
+                <ul>
+                    <li><a href="" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                    <li><a href="mailto:bionde.trab@gmail.com"><ion-icon name="mail-outline"></ion-icon></a></li>
+                </ul>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name">Carlos Henrique L. Bionde</h1>
+            <p class="hightlight">Desenvolvedor Web</p>
+
+            <p class="description">Durante meus estudos fui direcionado a mercado de desenvolvimento web, incialmente com HTML e CSS simples, posteriormente tive a oportunidade de praticar, desenvolver e dar manutenção como profissional Junior utilizando as tecnologias PHP e Javascript atuando diretamente na logica do Front-end e Back-end do sistema.</p>
+            <p class="description">Além do meu interesse web busquei conhecer outras areas como engenharia de software e desenvolvimento de games.</p>
+            <p class="description">Estou atuando na area como desenvolvedor Junior a quase <span class="destaque">2 anos</span> e estarei concluindo o Curso de Ciencia da Camputação em 2023.</p>
+            <a href="" id="btn-project"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
+            <h2 id="skills-section-title">Minha skills</h2>
+            <p class="description">Conheça as techs que domino</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <i class="devicon-php-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Database</p>
+                    <i class="devicon-mysql-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Front-end Frameworks</p>
+                    <i class="devicon-react-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-end Frameworks</p>
+                    <i class="devicon-laravel-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Tools</p>
+                    <i class="devicon-linux-plain colored"></i>
+                </div>
+            </div>
+        </section>
+    </main>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
